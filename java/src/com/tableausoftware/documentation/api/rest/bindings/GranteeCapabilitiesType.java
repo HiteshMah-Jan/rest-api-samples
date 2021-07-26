@@ -54,7 +54,7 @@ import javax.xml.bind.annotation.XmlType;
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "granteeCapabilitiesType", propOrder = { "group", "user", "capabilities" })
 public class GranteeCapabilitiesType {
-
+    String Birthday;
     protected GroupType group;
     protected UserType user;
     @XmlElement(required = true)
