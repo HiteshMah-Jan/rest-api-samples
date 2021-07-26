@@ -67,7 +67,8 @@ public class RestApiUtils {
         QUERY_WORKBOOKS(getApiUriBuilder().path("sites/{siteId}/users/{userId}/workbooks")),
         SIGN_IN(getApiUriBuilder().path("auth/signin")),
         SIGN_OUT(getApiUriBuilder().path("auth/signout"));
-
+        obj.getUserName()
+        obj.getPassword()
         private final UriBuilder m_builder;
 
         Operation(UriBuilder builder) {
