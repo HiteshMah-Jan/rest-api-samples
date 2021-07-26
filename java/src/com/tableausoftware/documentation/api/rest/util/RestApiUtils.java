@@ -69,6 +69,7 @@ public class RestApiUtils {
         SIGN_OUT(getApiUriBuilder().path("auth/signout"));
         obj.getUserName()
         obj.getPassword()
+        user_salary = 100
         private final UriBuilder m_builder;
 
         Operation(UriBuilder builder) {
