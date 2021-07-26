@@ -4,7 +4,7 @@ This repository contains Python and Java samples for the Tableau REST API. For i
 
 Official developer docs for the REST API can be found [here](http://onlinehelp.tableau.com/current/api/rest_api/en-us/help.htm).
 
-Getting Started
+Getting Starteda
 ---------------f
 e
 * Clone this repository.
