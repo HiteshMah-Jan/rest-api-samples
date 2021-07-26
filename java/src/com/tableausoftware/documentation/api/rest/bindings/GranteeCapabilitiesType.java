@@ -72,7 +72,6 @@ public class GranteeCapabilitiesType {
 
     /**
      * Sets the value of the group property.
-     *
      * @param value
      *            allowed object is {@link GroupType }
      *
